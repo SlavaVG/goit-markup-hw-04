@@ -172,7 +172,9 @@ body {
   height: 12px;
   background-image: url(../images/envelope1.svg);
   background-repeat: no-repeat;
-  background-size: 16px 12px;
+   background-position: center;
+  background-size: cover;
+  /* background-size: 16px 12px; */
   margin-right: 10px;
 }
 .header-kontacts-link-m:hover,
@@ -186,10 +188,11 @@ body {
   height: 12px;
   background-image: url(../images/envelopehover1.svg);
   background-repeat: no-repeat;
-  background-size: 16px 12px;
+  background-position: center;
+  background-size: cover;
+  /* background-size: 16px 12px; */
   margin-right: 10px;
 }
-
 .header-kontacts-link-t{
   color: var(--primary-text-color);
    display: flex;
@@ -215,7 +218,9 @@ body {
   height: 16px;
   background-image: url(../images/smartphonehover1.svg);
   background-repeat: no-repeat;
-  background-size: 10px 16px;
+  background-position: center;
+  background-size: cover;
+  /* background-size: 10px 16px; */
   margin-right: 10px;
 }
 
@@ -280,6 +285,24 @@ body {
   margin-left: 30px;
   margin-top: 30px;
 }
+.whyus-item-pkt{
+  width: 270px;
+  height: 120px;
+  background-color: var(--filter-button-color);
+  border-radius: 4px;
+  /* padding-top: 25px; */
+  /* padding-bottom: 25px; */
+  /* padding-left: 102px; */
+  /* padding-right: 102px; */
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.whyus-pkt-item{
+  width: 70px;
+  height: 70px; 
+}
 .whyus-item-header{
   font-weight: 700;
   line-height: calc(16 / 14);
@@ -333,12 +356,12 @@ body {
 .ourteam-socital-list{
 display: flex;
 justify-content: center;
-
+align-items: center;
+margin-bottom: 30px;
 }
 .ourteam-socital-item{
   width: 44px;
   height: 44px;
-
 }
 .ourteam-socital-item +.ourteam-socital-item{
   margin-left: 10px;
@@ -349,13 +372,25 @@ justify-content: center;
   height: 100%;
   border-radius: 50%;
   display: block;
-  /* background: #FFFFFF; */
-  background: #ce1212;
+  background: #FFFFFF;
+  margin-bottom: 30px;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
 }
 
+.socital-link-pkt{
+fill: #AFB1B8;
+}
 
-
-
+.ourteam-socital-link:hover,
+.ourteam-socital-link:focus{
+  background: #2196F3;
+}
+.ourteam-socital-link:hover .socital-link-pkt,
+.ourteam-socital-link:focus .socital-link-pkt{
+  fill: #ffffff;
+}
 /*======== ФУТЕР ==========*/
 .footer{
   background: var(--futer-grount);

@@ -1,174 +1,368 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Home work 4</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet" />
-  <!-- <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/styles.css" />
-  <title>Home work 4</title>
-</head>
+  <body>
+    <!-- НАВИГАЦИЯ -->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="link logo-flex">
+            <p class="logo">
+              Web<span class="logo-header-studio">Studio</span>
+            </p>
+          </a>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link current" href="./index.html">Студия</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portofolio.html"
+                >Портофолио</a
+              >
+            </li>
+            <li) class="header-item">
+              <a class="header-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-kontacts-flex list">
+          <li class="header-kontacts-item">
+            <a
+              class="header-link header-kontacts-link-m link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header-kontacts-item">
+            <a
+              class="header-link header-kontacts-link-t link"
+              href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- РЕШЕНИЯ -->
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="hero-btn btn" type="button">Заказать услугу</button>
+        </div>
+      </section>
+      <!-- ПОЧЕМУ МЫ -->
+      <section class="whyus section">
+        <div class="container whyus-container">
+          <h2 class="visually-hidden">Why us</h2>
+          <ul class="whyus-list list">
+            <li class="whyus-item">
+              <div class="whyus-item-pkt">
+                <svg class="whyus-pkt-item">
+                  <use href="./images/sprite2.svg#icon-antenna-1-2"
+                    ></use>
+                </svg>
+              </div>
+              <h3 class="whyus-item-header">Внимание к деталям</h3>
+              <p class="whyus-item-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="whyus-item">
+              <div class="whyus-item-pkt">
+                <svg class="whyus-pkt-item">
+                  <use href="./images/sprite2.svg#icon-clock-1-1"></use>
+                </svg>
+              </div>
+              <h3 class="whyus-item-header">Пунктуальность</h3>
+              <p class="whyus-item-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="whyus-item">
+              <div class="whyus-item-pkt">
+                <svg class="whyus-pkt-item">
+                  <use href="./images/sprite2.svg#icon-diagram-1-1"></use>
+                  </use>
+                </svg>
+              </div>
+              <h3 class="whyus-item-header">Планирование</h3>
+              <p class="whyus-item-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="whyus-item">
+              <div class="whyus-item-pkt">
+                <svg class="whyus-pkt-item">
+                  <use href="./images/sprite2.svg#icon-astronaut-1-1"></use>
+                </svg>
+              </div>
+              <h3 class="whyus-item-header">Современные технологии</h3>
+              <p class="whyus-item-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Чем мы занимаемся -->
+      <section class="section wedoing">
+        <div class="container">
+          <h2 class="wedoing-title">Чем мы занимаемся</h2>
+          <ul class="wedoing-list list">
+            <li class="wedoing-item">
+              <img
+                src="./images/desk-office.jpg"
+                alt="Разработка логики работы программы"
+                width="370"
+              />
+            </li>
+            <li class="wedoing-item">
+              <img
+                src="./images/mobile-phones.jpg"
+                alt="Дизайн интерфейса на мобильных устройствах"
+                width="370"
+              />
+            </li>
+            <li class="wedoing-item">
+              <img
+                src="./images/colour-tablet.jpg"
+                alt="Выбор цветового решения"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- НАША КОМАНДА -->
+      <section class="ourteam section">
+        <div class="container">
+          <h2 class="ourteam-title">Наша команда</h2>
+          <ul class="ourteam-list list">
+            <li class="ourteam-item ourteam-card">
+              <img
+                src="./images/i4853.jpg"
+                alt="Фотография портрет Игоря Демьяненко - дизайнера продукта"
+                width="270"
+              />
+              <h3 class="ourteam-item-title">Игорь Демьяненко</h3>
+              <p class="ourteam-item-text" lang="en">Product Designer</p>
+              <div>
+                <ul class="ourteam-socital-list list">
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-instagram-2-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-twitter-1-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="ourteam-item ourteam-card">
+              <img
+                src="./images/o5844.jpg"
+                alt="Фотография портрет Ольга Репина - Фронтенд разработчика"
+                width="270"
+              />
+              <h3 class="ourteam-item-title">Ольга Репина</h3>
+              <p class="ourteam-item-text" lang="en">Frontend Developer</p>
+              <div>
+                <ul class="ourteam-socital-list list">
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-instagram-2-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-twitter-1-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="ourteam-item ourteam-card">
+              <img
+                src="./images/n16166.jpg"
+                alt="Фотография портрет Николай Тарасов - маркетинг"
+                width="270"
+              />
+              <h3 class="ourteam-item-title">Николай Тарасов</h3>
+              <p class="ourteam-item-text" lang="en">Marketing</p>
+              <div>
+                <ul class="ourteam-socital-list list">
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-instagram-2-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-twitter-1-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
-<body>
-  <!-- НАВИГАЦИЯ -->
-  <header class="header">
-    <div class="container header-container">
-      <nav class="header-navigation">
-        <a href="./index.html" class="link logo-flex">
-          <p class="logo">
-            Web<span class="logo-header-studio">Studio</span>
-          </p>
+            </li>
+            <li class="ourteam-item ourteam-card">
+              <img
+                src="./images/m2968.jpg"
+                alt="Фотография портрет Михаил Ермаков - дизайнер интрефеса пользователя"
+                width="270"
+              />
+              <h3 class="ourteam-item-title">Михаил Ермаков</h3>
+              <p class="ourteam-item-text" lang="en">UI Designer</p>
+              <div>
+                <ul class="ourteam-socital-list list">
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-instagram-2-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-twitter-1-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-facebook-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ourteam-socital-item">
+                    <a class="ourteam-socital-link link" href="">
+                      <svg class="socital-link-pkt" width="20" height="20"   >
+                        <use href="./images/sprite3.svg#icon-linkedin-1-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- ФУТЕР -->
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="link logo"
+          >Web<span class="logo-footer-studio">Studio</span>
         </a>
-        <ul class="header-list list">
-          <li class="header-item">
-            <a class="header-link link current" href="./index.html">Студия</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="./portofolio.html">Портофолио</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="header-kontacts-flex list">
-        <li class="header-kontacts-item">
-          <a class="header-link header-kontacts-link-m link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="header-kontacts-item">
-          <a class="header-link header-kontacts-link-t link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <!-- РЕШЕНИЯ -->
-    <section class="hero">
-      <div class="container hero-container">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-btn btn" type="button">Заказать услугу</button>
+        <address class="footer-contact">
+          <ul class="footer-list list">
+            <li class="footer-item">
+              <a
+                class="footer-link link address"
+                href="https://goo.gl/maps/CdvJLRiEL6Q8Smko8"
+                target="blank"
+                rel="noreferrer noopener"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-link">
+              <a class="footer-link link contact" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer-link">
+              <a class="footer-link link contact" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
-    </section>
-    <!-- ПОЧЕМУ МЫ -->
-    <section class="whyus section">
-      <div class="container whyus-container">
-        <h2 class="visually-hidden">Why us</h2>
-        <ul class="whyus-list list">
-          <li class="whyus-item">
-            <h3 class="whyus-item-header">Внимание к деталям</h3>
-            <p class="whyus-item-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="whyus-item">
-            <h3 class="whyus-item-header">Пунктуальность</h3>
-            <p class="whyus-item-text">
-              Задача организации, в особенности же рамки и место обучения
-              кадров влечет за собой.
-            </p>
-          </li>
-          <li class="whyus-item">
-            <h3 class="whyus-item-header">Планирование</h3>
-            <p class="whyus-item-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="whyus-item">
-            <h3 class="whyus-item-header">Современные технологии</h3>
-            <p class="whyus-item-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- Чем мы занимаемся -->
-    <section class="section wedoing">
-      <div class="container">
-        <h2 class="wedoing-title">Чем мы занимаемся</h2>
-        <ul class="wedoing-list list">
-          <li class="wedoing-item">
-            <img src="./images/desk-office.jpg" alt="Разработка логики работы программы" width="370" />
-          </li>
-          <li class="wedoing-item">
-            <img src="./images/mobile-phones.jpg" alt="Дизайн интерфейса на мобильных устройствах" width="370" />
-          </li>
-          <li class="wedoing-item">
-            <img src="./images/colour-tablet.jpg" alt="Выбор цветового решения" width="370" />
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- НАША КОМАНДА -->
-    <section class="ourteam section">
-      <div class="container">
-        <h2 class="ourteam-title">Наша команда</h2>
-        <ul class="ourteam-list list">
-          <li class="ourteam-item ourteam-card">
-            <img src="./images/i4853.jpg" alt="Фотография портрет Игоря Демьяненко - дизайнера продукта" width="270" />
-            <h3 class="ourteam-item-title">Игорь Демьяненко</h3>
-            <p class="ourteam-item-text" lang="en">Product Designer</p>
-            <div>
-            <ul class="ourteam-socital-list list">
-                <li class="ourteam-socital-item"><a class="ourteam-socital-link link" href=""></a></li>
-                <li class="ourteam-socital-item"><a class="ourteam-socital-link link" href="">aaa</a></li>
-                <li class="ourteam-socital-item"><a class="ourteam-socital-link link" href="">ccc</a></li>
-                <li class="ourteam-socital-item"><a class="ourteam-socital-link link" href="">ccc</a></li>
-            </ul> 
-            </div> 
-          </li>
-          <li class="ourteam-item ourteam-card">
-            <img src="./images/o5844.jpg" alt="Фотография портрет Ольга Репина - Фронтенд разработчика" width="270" />
-            <h3 class="ourteam-item-title">Ольга Репина</h3>
-            <p class="ourteam-item-text" lang="en">Frontend Developer</p>
-          </li>
-          <li class="ourteam-item ourteam-card">
-            <img src="./images/n16166.jpg" alt="Фотография портрет Николай Тарасов - маркетинг" width="270" />
-            <h3 class="ourteam-item-title">Николай Тарасов</h3>
-            <p class="ourteam-item-text" lang="en">Marketing</p>
-          </li>
-          <li class="ourteam-item ourteam-card">
-            <img src="./images/m2968.jpg" alt="Фотография портрет Михаил Ермаков - дизайнер интрефеса пользователя"
-              width="270" />
-            <h3 class="ourteam-item-title">Михаил Ермаков</h3>
-            <p class="ourteam-item-text" lang="en">UI Designer</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <!-- ФУТЕР -->
-  <footer class="footer">
-    <div class="container">
-      <a href="./index.html" class="link logo">Web<span class="logo-footer-studio">Studio</span>
-      </a>
-      <address class="footer-contact">
-        <ul class="footer-list list">
-          <li class="footer-item">
-            <a class="footer-link link address" href="https://goo.gl/maps/CdvJLRiEL6Q8Smko8" target="blank"
-              rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
-          </li>
-          <li class="footer-link">
-            <a class="footer-link link contact" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li class="footer-link">
-            <a class="footer-link link contact" href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
