@@ -375,7 +375,7 @@ margin-bottom: 30px;
   height: 100%;
   border-radius: 50%;
   display: block;
-  background: #FFFFFF;
+  background: var(--primary-title-color);
   margin-bottom: 30px;
   display: flex;  
   align-items: center;
@@ -392,7 +392,7 @@ fill: #AFB1B8;
 }
 .ourteam-socital-link:hover .socital-link-pkt,
 .ourteam-socital-link:focus .socital-link-pkt{
-  fill: #ffffff;
+  fill: var(--primary-title-color);
 }
 /*======== ПОСТОЯННЫЕ КЛИЕНТЫ ==========*/
 .clients-item{
@@ -418,9 +418,9 @@ fill: #AFB1B8;
 .clients-icon:focus{
   width: 170px;
   height: 92px;
-  border: 1px inset #2196F3;
+  border: 1px inset var(--hero-button);
   border-radius: 4px;
-  fill: #2196F3;
+  fill: var(--hero-button);
   
 }
 /*======== ФУТЕР ==========*/
@@ -468,14 +468,16 @@ fill: #AFB1B8;
   width: 206px;
   height: 80px;
   flex-basis: calc(100% / 4 - 10px);
-  margin-left: -10px;
-  margin-top: -10px;
-}
+  /* margin-left: -10px; */
+  /* margin-top: -10px; */
+  }
 .section-b-list{
   display: flex;
   flex-wrap: wrap;
-  margin-left: 10px;
-  margin-top: 10px;
+  lign-items: center;
+  justify-content: center;
+  /* margin-left: -10px; */
+  /* margin-top: -10px; */
 }
 .section-b-title{
   font-weight: 700;
@@ -483,9 +485,12 @@ fill: #AFB1B8;
   text-transform: uppercase;
   line-height: calc(16 / 14);
   /* text-align: center; */
+  display: block;
+  lign-items: left;
+  justify-content: top;
   color: var(--primary-title-color);
-  margin-bottom: 20px;
-  
+  /* margin-bottom: 20px; */
+  margin-left: 55px;
 }
 .section-b-item{
   width: 44px;
@@ -504,7 +509,7 @@ fill: #AFB1B8;
   display: flex;  
   align-items: center;
   justify-content: center;
-}
+}  
 .section-b-pkt{
 fill: #ffffff;
 }
