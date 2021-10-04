@@ -163,7 +163,7 @@ body {
 
 .header-kontacts-link-m{
   color: var(--primary-text-color);
-   display: flex;
+  display: flex;
 }
 .header-kontacts-link-m::before{
   /* color: var(--primary-text-color) */
@@ -172,7 +172,7 @@ body {
   height: 12px;
   background-image: url(../images/envelope1.svg);
   background-repeat: no-repeat;
-   background-position: center;
+  background-position: center;
   background-size: cover;
   /* background-size: 16px 12px; */
   margin-right: 10px;
@@ -195,7 +195,7 @@ body {
 }
 .header-kontacts-link-t{
   color: var(--primary-text-color);
-   display: flex;
+  display: flex;
 }
 .header-kontacts-link-t::before{
   /* color: var(--primary-text-color) */
@@ -421,7 +421,6 @@ fill: #AFB1B8;
   border: 1px inset var(--hero-button);
   border-radius: 4px;
   fill: var(--hero-button);
-  
 }
 /*======== ФУТЕР ==========*/
 .footer{
@@ -452,7 +451,6 @@ fill: #AFB1B8;
 }
 .logo-footer-studio{
   color:var(--primary-title-color);
-  */* margin-top: 60px; */
 }
 .footer-item,
 .footer-link:not(:last-child){
@@ -461,36 +459,28 @@ fill: #AFB1B8;
 .footer-section{
   display: flex;
   flex-wrap: wrap;
-  /* margin-left: -10px; */
-  /* margin-top: -10px; */
 }
 .footer-section-b{
   width: 206px;
   height: 80px;
   flex-basis: calc(100% / 4 - 10px);
-  /* margin-left: -10px; */
-  /* margin-top: -10px; */
   }
 .section-b-list{
   display: flex;
   flex-wrap: wrap;
-  lign-items: center;
+  align-items: center;
   justify-content: center;
-  /* margin-left: -10px; */
-  /* margin-top: -10px; */
 }
 .section-b-title{
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   line-height: calc(16 / 14);
-  /* text-align: center; */
+  text-align: center;
   display: block;
-  lign-items: left;
+  align-items: left;
   justify-content: top;
   color: var(--primary-title-color);
-  /* margin-bottom: 20px; */
-  margin-left: 55px;
 }
 .section-b-item{
   width: 44px;
@@ -556,7 +546,6 @@ fill: #ffffff;
 }
 .portofolio-item{
   flex-basis: calc(100% / 3 - 30px);
-  /* width: calc((100% - 90px) / 3); */
   margin-left: 30px;
   margin-top: 30px;
 }
