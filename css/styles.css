@@ -28,7 +28,6 @@ button{
 border-width: 0;
 }
 body {
-  /* font-family: 'Raleway', sans-serif; */
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 14px;
@@ -82,7 +81,7 @@ body {
   line-height: calc(31 / 26);
   color: var(--accent-color);
   display: block;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .logo:hover,
 .logo:focus{
@@ -91,7 +90,6 @@ body {
   font-size: 26px;
   line-height: calc(31 / 26);
   color: var(--accent-color);
-  /* text-decoration: underline; */
 }
 .footer-link{
   line-height: 1.71;  /* or 171% */
@@ -111,8 +109,6 @@ body {
 /*========prodact=====*/
 /*========header=====*/
 .header{
-  /* padding-top: 24px; */
-  /* padding-bottom: 25px; */
   border-bottom: 1px solid var(--border-color);
 }
 .header-container{
@@ -133,8 +129,8 @@ body {
   align-items: center;
 }
 .logo-flex{
-  display: block;
-  display: flex;
+  /* display: block; */
+  /* display: flex; */
   margin-right: 93px;
 }
 .logo-header-studio{
@@ -173,7 +169,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-size: 16px 12px; */
   margin-right: 10px;
 }
 .header-kontacts-link-m:hover,
@@ -181,7 +176,6 @@ body {
   color: var(--accent-color)
 }
 .header-kontacts-link-m:hover::before{
-  /* color: var(--primary-text-color) */
   content: "";
   width: 16px;
   height: 12px;
@@ -189,7 +183,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-size: 16px 12px; */
   margin-right: 10px;
 }
 .header-kontacts-link-t{
@@ -219,7 +212,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-size: 10px 16px; */
   margin-right: 10px;
 }
 /*========hero=====*/
@@ -289,10 +281,6 @@ body {
   height: 120px;
   background-color: var(--filter-button-color);
   border-radius: 4px;
-  /* padding-top: 25px; */
-  /* padding-bottom: 25px; */
-  /* padding-left: 102px; */
-  /* padding-right: 102px; */
   display: flex;  
   align-items: center;
   justify-content: center;
@@ -334,7 +322,6 @@ body {
 }
 .ourteam-card{
   background: var(--background-card);
-  /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -439,6 +426,9 @@ fill: #AFB1B8;
 .contact:hover,
 .contact:focus{
   color: var(--accent-color);
+}
+.footer-logo{
+  margin-bottom: 20px; 
 }
 .logo-footer-studio{
   color:var(--primary-title-color);
