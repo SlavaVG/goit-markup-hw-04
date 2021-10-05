@@ -153,70 +153,37 @@ body {
 .header-item:not(:last-child){
   margin-right: 50px;
 }
-.header-kontacts-item:not(:last-child){
-  margin-right: 50px;
+.header-kontacts-item{
+  color: var(--primary-text-color)
 }
-.header-kontacts-link-m{
-  color: var(--primary-text-color);
-  display: flex;
+.header-kontacts-sep:not(:last-child){
+  margin-right: 50px; /* отступ между мылом и телефоном без последнего ребенка */
 }
-.header-kontacts-link-m::before{
-  /* color: var(--primary-text-color) */
-  content: "";
-  width: 16px;
-  height: 12px;
-  background-image: url(../images/envelope1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.icon {
   margin-right: 10px;
+  fill: var(--primary-text-color)
 }
-.header-kontacts-link-m:hover,
-.header-kontacts-link-m:focus{
+.header-link-item{
+  display: flex;
+  align-items: center;
+  /* padding-top: 32px; */
+  /* padding-bottom: 32px; */
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color)
+}
+.header-link-item:hover,
+.header-link-item:focus{
   color: var(--accent-color)
 }
-.header-kontacts-link-m:hover::before{
-  content: "";
-  width: 16px;
-  height: 12px;
-  background-image: url(../images/envelopehover1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-right: 10px;
-}
-.header-kontacts-link-t{
-  color: var(--primary-text-color);
-  display: flex;
-}
-.header-kontacts-link-t::before{
-  /* color: var(--primary-text-color) */
-  content: "";
-  width: 10px;
-  height: 16px;
-  background-image: url(../images/smartphone1.svg);
-  background-repeat: no-repeat;
-  background-size: 10px 16px;
-  margin-right: 10px;
-}
-.header-kontacts-link-t:hover,
-.header-kontacts-link-t:focus{
-  color: var(--accent-color)
-}
-.header-kontacts-link-t:hover::before{
-  /* color: var(--primary-text-color) */
-  content: "";
-  width: 10px;
-  height: 16px;
-  background-image: url(../images/smartphonehover1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-right: 10px;
+.header-link-item:hover .icon,
+.header-link-item:focus .icon{
+  fill: var(--accent-color)
 }
 /*========hero=====*/
 .hero{
-  background-color: var(--hero-bg);
+  background-color: var(--hero-bg)
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
