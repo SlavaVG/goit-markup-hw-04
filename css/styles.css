@@ -134,7 +134,7 @@ body {
   margin-right: 93px;
 }
 .logo-header-studio{
-  color:var(--secondary-text-color)
+  color: var(--secondary-text-color);
 }
 .header-link{
   display: block;
@@ -143,25 +143,25 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-title-color)
+  color: var(--secondary-title-color);
 }
 .header-link:hover,
 .header-link:focus,
 .current{
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 .header-item:not(:last-child){
   margin-right: 50px;
 }
 .header-kontacts-item{
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
 }
 .header-kontacts-sep:not(:last-child){
   margin-right: 50px; /* отступ между мылом и телефоном без последнего ребенка */
 }
 .icon {
   margin-right: 10px;
-  fill: var(--primary-text-color)
+  fill: var(--primary-text-color);
 }
 .header-link-item{
   display: flex;
@@ -171,19 +171,19 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
 }
 .header-link-item:hover,
 .header-link-item:focus{
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 .header-link-item:hover .icon,
 .header-link-item:focus .icon{
-  fill: var(--accent-color)
+  fill: var(--accent-color);
 }
 /*========hero=====*/
 .hero{
-  background-color: var(--hero-bg)
+  background-color: var(--hero-bg);
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -192,7 +192,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -449,7 +448,7 @@ fill: #AFB1B8;
   justify-content: center;
 }  
 .section-b-pkt{
-fill: #ffffff;
+  fill: #ffffff;
 }
 .section-b-link:hover,
 .section-b-link:focus{
