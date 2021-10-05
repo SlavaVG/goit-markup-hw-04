@@ -82,7 +82,6 @@ body {
   line-height: calc(31 / 26);
   color: var(--accent-color);
   display: block;
-  /* margin-bottom: 20px; */
 }
 .logo:hover,
 .logo:focus{
@@ -130,8 +129,6 @@ body {
   align-items: center;
 }
 .logo-flex{
-  /* display: block; */
-  /* display: flex; */
   margin-right: 93px;
 }
 .logo-header-studio{
@@ -167,8 +164,6 @@ body {
 .header-link-item{
   display: flex;
   align-items: center;
-  /* padding-top: 32px; */
-  /* padding-bottom: 32px; */
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -192,7 +187,7 @@ body {
       url(../images/hero-jpeg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;/*зауваження*/
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -318,8 +313,8 @@ body {
   margin-left: 10px;
 }
 .ourteam-socital-link{
-  width: 44px; /* перенесено из айтем*/
-  height: 44px;/* перенесено из айтем*/
+  width: 44px; 
+  height: 44px;
   border-radius: 50%;
   display: block;
   background: var(--primary-title-color);
@@ -328,11 +323,11 @@ body {
   justify-content: center;
 }
 .socital-link-pkt{
-fill: #AFB1B8;
+fill: var(--clients-color);
 }
 .ourteam-socital-link:hover,
 .ourteam-socital-link:focus{
-  background: #2196F3;
+  background: var(--accent-color);
 }
 .ourteam-socital-link:hover .socital-link-pkt,
 .ourteam-socital-link:focus .socital-link-pkt{
@@ -356,7 +351,7 @@ fill: #AFB1B8;
 }
 .clients-link:hover,
 .clients-link:focus{
-  border: 1px solid var(--hero-button);/*замечание*/
+  border: 1px solid var(--hero-button);
   fill: var(--hero-button);
 }
 .clients-icon{
@@ -407,7 +402,6 @@ fill: #AFB1B8;
   margin-right: 70px;
 }
 .footer-section-common{
-  /* flex-basis: calc(100% / 4 - 10px); */
   }
 .section-common-list{
   display: flex;
@@ -422,7 +416,7 @@ fill: #AFB1B8;
   line-height: calc(16 / 14);
   color: var(--primary-title-color);
   margin-bottom: 20px;
-}/* зауваження */
+}
 
 .section-common-list{
   display: flex;
@@ -455,7 +449,7 @@ fill: #AFB1B8;
   justify-content: center;
 }  
 .section-common-pkt{
-  fill: #ffffff;
+  fill: var(--primary-title-color);
 }
 .section-common-link:hover,
 .section-common-link:focus{
